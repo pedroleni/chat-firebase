@@ -32,7 +32,7 @@ code {
   flex-direction: column;
   flex: 0.25;
   height: 100vh;
-  background-color: #2f3135;
+  background-color: #000000;
   overflow: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -46,10 +46,10 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #2f3135;
+  padding: 21.5px;
+  background-color: #8d1111;
   color: white;
-  border-bottom: 3px solid #26282c;
+  border-bottom: 3px solid #811c1c;
 }
 
 .sidebar__channels {
@@ -65,7 +65,7 @@ code {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: #2f3135;
+  background-color: #000000;
   color: gray;
 }
 
@@ -78,10 +78,10 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: gray;
-  background-color: #2f3135;
+  color: rgb(255, 255, 255);
+
   padding: 10px;
-  border-top: 1px solid gray;
+  border-top: 1px solid #811c1c;
 }
 
 .sidebar__profileInfo {
@@ -108,8 +108,8 @@ code {
   display: flex;
   padding-left: 15px;
   align-items: center;
-  background-color: #2f3135;
-  color: gray;
+  background-color: black;
+  color: rgb(177, 177, 177);
   cursor: pointer;
 }
 
@@ -124,7 +124,7 @@ code {
   display: flex;
   flex-direction: column;
   flex: 0.75;
-  background-color: #363a3f;
+  background-color: #161616;
   height: 100vh;
 }
 
@@ -134,10 +134,10 @@ code {
   align-items: center;
   justify-content: space-between;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 131px;
   margin: 20px;
-  border-top: 1px solid gray;
-  background-color: #474b53;
+  border-top: -64px solid gray;
+  background-color: #2b2b2b91;
 }
 
 .chat__input > form > input {
@@ -200,6 +200,7 @@ code {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #8d1111;
   color: gray;
   padding: 10px;
 }
@@ -237,8 +238,8 @@ code {
   align-items: center;
   color: gray;
   background-color: #2f3135;
-  border-radius: 3px;
-  padding: 3px;
+  border-radius: 18px;
+  padding: 6px;
 }
 
 .chatHeader__search > input {
@@ -261,14 +262,14 @@ code {
 
 .login > button {
   width: 300px;
-  background-color: #738adb;
+  background-color: #161616;
   color: #eff2f5;
   font-weight: 800;
 }
 
 .login > button:hover {
   background-color: black;
-  color: #738adb;
+  color: #7e1515;
 }
 
 .login > div > img {
