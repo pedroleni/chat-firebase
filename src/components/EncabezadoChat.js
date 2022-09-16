@@ -17,7 +17,11 @@ function EncabezadoChat({ nombreCanal }) {
           <input placeholder="buscar" />
           <Search />
         </div>
-        <Help />
+        <img
+          class="logo"
+          src="https://cdn.discordapp.com/attachments/993445344358699118/1020235067760586762/Akira-PNGshadow.png"
+          alt="logo"
+        ></img>
       </div>
     </div>
   );

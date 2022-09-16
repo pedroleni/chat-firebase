@@ -16,6 +16,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.logo{
+  width: 100px;
+  height: 50px;
+  margin-right:30px
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -137,7 +143,7 @@ code {
   border-radius: 131px;
   margin: 20px;
   border-top: -64px solid gray;
-  background-color: #2b2b2b91;
+  background-color: #00000091;
 }
 
 .chat__input > form > input {
@@ -206,7 +212,7 @@ code {
 }
 
 .chatHeader__hash {
-  color: gray;
+  color: white;
   font-size: 30px;
   padding: 10px;
 }
@@ -234,12 +240,14 @@ code {
 }
 
 .chatHeader__search {
+  
   display: flex;
   align-items: center;
   color: gray;
-  background-color: #2f3135;
+  background-color: #0d0d0d;
   border-radius: 18px;
   padding: 6px;
+  display:none
 }
 
 .chatHeader__search > input {
